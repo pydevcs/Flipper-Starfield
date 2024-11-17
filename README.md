@@ -7,6 +7,6 @@ gcc starfield.c -o starfield -I/opt/homebrew/include -L/opt/homebrew/lib -lSDL2 
 
 Momentum Firmware Build:
 
-gcc -o starfield starfield.c -I/opt/homebrew/include -L/opt/homebrew/lib -lSDL2
+ufbt update --index-url https://up.momentum-fw.dev/firmware/directory.json
 
-./starfield
+ufbt launch APPSRC=starfield 
