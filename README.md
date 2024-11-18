@@ -8,7 +8,7 @@ The Apple Silicon Simulator is a simple starfield simulation that you can build 
 
 ### Prerequisites
 
-- macOS with an M1 chip
+- macOS with an Apple Silicon chip
 - GCC (installed via Homebrew)
 - SDL2 (installed via Homebrew)
 
@@ -19,7 +19,7 @@ First, ensure that you have the required dependencies:
 ```bash
 brew install gcc sdl2
 
-cd m1
+cd darwin
 
 gcc starfield.c -o starfield -I/opt/homebrew/include -L/opt/homebrew/lib -lSDL2 -lm
 
