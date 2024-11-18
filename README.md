@@ -1,10 +1,10 @@
-# M1 Simulator and Momentum Firmware Build
+# Apple Silicon Simulator and FlipperZero Firmware Build
 
-This repository contains instructions for building and running the M1 Simulator (Starfield) and the Momentum Firmware.
+This repository contains instructions for building and running the Apple Silicon Simulator (Starfield) and the Flipper Firmware.
 
-## M1 Simulator (Starfield)
+## Apple Silicon Simulator (Starfield)
 
-The M1 Simulator is a simple starfield simulation that you can build and run on macOS with an M1 chip. Follow the steps below to compile and run the simulator.
+The Apple Silicon Simulator is a simple starfield simulation that you can build and run on macOS with an Apple silicon chip. Follow the steps below to compile and run the simulator.
 
 ### Prerequisites
 
@@ -33,10 +33,10 @@ Left & Right arrow keys to move left or right.
 Up & Down arrow keys to increase or decrease warp speed.
 
 
-## Momentum Firmware Build:
+## FlipperZero Firmware Build (Momentum):
 
 ```bash
-cd momentum
+cd flipper
 
 ufbt update --index-url https://up.momentum-fw.dev/firmware/directory.json
 
